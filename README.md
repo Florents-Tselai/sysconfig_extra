@@ -12,6 +12,28 @@
 
 ```shell
 pip install sysconfig_extra
+```
+```shell
 python -m sysconfig_extra --json
 ```
-
+```json
+{
+ "platform": "macosx-14.6-arm64",
+ "pyversion": "3.14",
+ "default_scheme": "posix_prefix",
+ "paths": {
+     "stdlib": "/Users/flo/cpython/build/lib/python3.14",
+     "platstdlib": "/Users/flo/cpython/build/lib/python3.14",
+     "purelib": "/Users/flo/cpython/build/lib/python3.14/site-packages",
+ },
+ "variables": {
+     "prefix": "/Users/flo/cpython/build",
+     "exec_prefix": "/Users/flo/cpython/build",
+     "py_version": "3.14.0a0",
+     "py_version_short": "3.14",
+     "py_version_nodot": "314",
+     "installed_base": "/Users/flo/cpython/build",
+     "base": "/Users/flo/cpython/build",
+ }
+}
+```
