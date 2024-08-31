@@ -36,7 +36,7 @@ jobs:
       - name: Run tests
         run: |-
           ls -lah
-          pytest --cov=nitsa --cov-report xml:coverage.xml --cov-report term
+          pytest --cov=sysconfig_extra --cov-report xml:coverage.xml --cov-report term
           ls -lah
 
       - name: Upload coverage report

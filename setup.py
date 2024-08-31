@@ -31,6 +31,7 @@ setup(
     install_requires=["pip", "setuptools"],
     extras_require={
         "test": [
+            "pytest"
         ]
     },
     python_requires=">=3.7",
